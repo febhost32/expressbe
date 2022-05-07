@@ -1,0 +1,24 @@
+{
+  "name": "expressbe",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "kek",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --experimental-json-modules --exec babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "set DEBUG=express:* & node --experimental-json-modules index.js"
+  },
+  "author": "Febhost32",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.17.10"
+  }
+}
